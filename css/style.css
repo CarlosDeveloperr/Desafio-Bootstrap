@@ -4,4 +4,59 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-menu {
+  margin-bottom: 50px;
+}
+
+.nav-menu ul li {
+  margin: 10px 0;
+}
+
+.nav-menu a {
+  margin-left: 5px;
+  color: #4d5760;
+  font-size: 1rem;
+}
+
+.nav-menu li:nth-of-type(7) a {
+  margin-left: 27px;
+}
+
+.tags h2 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.tags ul li {
+  margin: 10px 0;
+}
+
+.tags ul li a {
+  color: #4d5760;
+  font-size: 1rem;
+}
+
+.tags img.img-bottom {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.tags h1 {
+  font-weight: bold;
+  font-size: 1.17em;
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

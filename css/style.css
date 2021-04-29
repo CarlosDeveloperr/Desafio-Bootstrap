@@ -23,72 +23,11 @@ a:link, a:visited, a:active {
   text-decoration: none;
 }
 
-nav {
-  background-color: white;
+main {
+  margin-top: 70px;
 }
-nav .navegation {
-  width: 100%;
-}
-
-.center nav {
-  background-color: #f2ebeb;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-.center nav h2 {
-  margin: 10px 5px 0 0;
-  font-size: 18px;
-}
-.center nav ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
-}
-.center nav ul .menu-large {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 55px;
-  height: 40px;
-  border-radius: 5px;
-  margin: 20px 2px 0 10px;
-  font-size: 15px;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
-}
-.center nav ul .menu-large a {
-  color: black;
-  text-align: center;
-  margin: 20px 0 0 30px;
-}
-.center nav ul .menu-large a:hover {
-  background-color: #8e8ee3;
-  text-decoration: none;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.center .card-prin {
-  padding: 0;
-}
-.center .card-prin .img-principal {
-  width: 100%;
-  height: 100%;
-}
-.center .card-prin .bodyprincipal {
+main .center {
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -97,19 +36,84 @@ nav .navegation {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-.center .card-prin .bodyprincipal .users {
+main .center nav {
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+main .center nav h2 {
+  font-size: 18px;
+}
+main .center nav ul {
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+main .center nav ul li select {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+main .center nav ul .superior {
+  font-size: 12px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+main .center nav ul .superior a {
+  color: black;
+  text-align: center;
+  padding: 7px;
+  margin-top: 4px;
+}
+main .center nav ul .superior a.selection {
+  border-bottom: 1px solid #7c7ce4;
+  padding: 7px;
+}
+main .center nav ul .superior a:hover {
+  background-color: #a6a6e6;
+  opacity: 50%;
+  -webkit-transition: 900ms;
+  transition: 900ms;
+  border-radius: 5px;
+  border-bottom: 1px solid #7c7ce4;
+  padding: 7px;
+}
+main .center .card-prin {
+  padding: 0;
+}
+main .center .card-prin .img-principal {
+  width: 100%;
+}
+main .center .card-prin .bodyprincipal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+main .center .card-prin .bodyprincipal .users {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin: 25px 0 0 0;
 }
-.center .card-prin .bodyprincipal .users img {
+main .center .card-prin .bodyprincipal .users img {
   margin: 0 5px;
 }
-.center .card-prin .bodyprincipal h3 {
+main .center .card-prin .bodyprincipal h3 {
   margin-left: 45px;
 }
-.center .card-prin .bodyprincipal ul {
+main .center .card-prin .bodyprincipal ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,10 +123,10 @@ nav .navegation {
   margin: 5px 0 5px 45px;
   list-style-type: none;
 }
-.center .card-prin .bodyprincipal ul li {
+main .center .card-prin .bodyprincipal ul li {
   margin: 0 5px;
 }
-.center .card-prin .bodyprincipal .foot {
+main .center .card-prin .bodyprincipal .foot {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -130,7 +134,7 @@ nav .navegation {
   margin: 10px 60px 10px 45px;
   font-size: 12px;
 }
-.center .card-prin .bodyprincipal .foot .dinamic-center {
+main .center .card-prin .bodyprincipal .foot .dinamic-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -140,18 +144,18 @@ nav .navegation {
   width: 40%;
   padding: 0 3px;
 }
-.center .card-prin .bodyprincipal .foot .dinamic-center p {
+main .center .card-prin .bodyprincipal .foot .dinamic-center p {
   display: block;
   font-size: 10px;
   margin: 0 5px;
   text-align: center;
   padding-top: 3px;
 }
-.center .card-prin .bodyprincipal .foot .dinamic-center p:hover {
+main .center .card-prin .bodyprincipal .foot .dinamic-center p:hover {
   border-radius: 5px;
   background-color: #f4f4f4;
 }
-.center .card-prin .bodyprincipal .foot .action-center {
+main .center .card-prin .bodyprincipal .foot .action-center {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -162,7 +166,7 @@ nav .navegation {
       -ms-flex-pack: end;
           justify-content: flex-end;
 }
-.center .card-prin .bodyprincipal .foot .action-center p {
+main .center .card-prin .bodyprincipal .foot .action-center p {
   display: block;
   width: 45%;
   font-size: 10px;
@@ -171,12 +175,12 @@ nav .navegation {
   padding-top: 4px;
   padding-left: 13px;
 }
-.center .card-prin .bodyprincipal .foot .action-center a {
+main .center .card-prin .bodyprincipal .foot .action-center a {
   background-color: #bbbbbb;
   border: gray;
   color: black;
 }
-.center .card-prin .bodyprincipal .foot .action-center a:hover {
+main .center .card-prin .bodyprincipal .foot .action-center a:hover {
   background-color: gray;
 }
 

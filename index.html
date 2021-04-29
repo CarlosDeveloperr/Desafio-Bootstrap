@@ -13,56 +13,54 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-ligth navbar navbar-light bg-light ">
-    <div class="navegation container d-flex justify-content-between">
-      <div class="d-flex">
-        <button class="d-sm-none navbar-toggler mr-2 " type="button" data-toggle="collapse"
-          data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-        <a class="navbar-brand" href="#">
-          <img src="./assets/dev.png" width="45" height="40" class="d-inline-block align-top" alt="">
-        </a>
-        <form class="d-none d-sm-block form-inline">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
-        </form>
-      </div>
-      <div class="d-sm-flex justify-content-end w-48 ml-auto">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link text-white btn btn-primary rounded" href="#">Write a Post</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><img src="./assets/Mensajeria.png" width="35" height="25"
-                  alt="Mensajeria"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"><img src="./assets/notification.png" width="35" height="20" alt=""></a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src=".//assets/login.jpeg"
-                  width="35" height="35" alt="Perfil"></a>
+  <nav class="navbar navbar-light bg-light justify-content-start container-fluid fixed-top ">
+    <div class="container">
 
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#"> <strong>Arevalo-dev</strong><br> @arevalo-dev</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Dashboard</a>
-                <a class="dropdown-item" href="#">Write a Post</a>
-                <a class="dropdown-item" href="#">Reading List</a>
-                <a class="dropdown-item" href="#">Settingss</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Sign Out</a>
-              </div>
-            </li>
-          </ul>
+      <button class="d-sm-none navbar-toggler mr-2 " type="button" data-toggle="collapse"
+        data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <a class="navbar-brand  rounded-lg m-md-0 mr-sm-auto " href="#">
+        <img src="./assets/icons/dev-brands.svg" width="30" height="30" alt="">
+      </a>
+      <form class="form-inline d-none d-md-block mr-lg-auto ml-2">
+        <input class="form-control mr-sm-2 " type="search" placeholder="Search..." aria-label="Search">
+      </form>
+      <div class="ladoDerechoNav d-flex justify-content-end w-48 ml-auto ">
+        <div class="d-flex">
+          <input class="btn btn-primary d-none d-md-block" type="submit" value="Write a post">
+
+          <a class="navbar-brand d-block d-md-none" href="#">
+            <img src="/assets/icons/search-solid.svg" width="24" height="24" alt="">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="/assets/icons/comment-regular.svg" class="ml-lg-3 ml-md-3" width="24" height="24" alt="">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="/assets/icons/bell-regular.svg" width="24" height="24" alt="">
+          </a>
+
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="/assets/icons/kodemia.svg" class="rounded-circle"
+              width="30" height="30" alt="Perfil"></a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#"> <strong>Kodemia</strong><br> @kodemia</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Dashboard</a>
+            <a class="dropdown-item" href="#">Write a Post</a>
+            <a class="dropdown-item" href="#">Reading List</a>
+            <a class="dropdown-item" href="#">Settingss</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Sign Out</a>
+          </div>
         </div>
       </div>
     </div>
   </nav>
-
 
   <main class="container-fluid">
     <div class="row">
@@ -113,9 +111,9 @@
 
 
           <section class="center col-sm-12 col-md-8 col-lg-6">
-            <nav class="col">
-              <h2 class="">Posts</h2>
-              <ul class="col-12">
+            <nav class="col d-flex align-items-center">
+              <h2 class="align-middle d-block">Posts</h2>
+              <ul class="align-middle d-block">
                 <li>
                   <select class="d-md-none" name=:" id="">
                     <option value="">
@@ -138,8 +136,8 @@
                     </option>
                   </select>
                 </li>
-                <li class="menu-large d-none d-sm-flex">
-                  <a href="./index.html">Feed</a>
+                <li class="superior d-none d-md-flex">
+                  <a class="selection" href="./index.html">Feed</a>
                   <a href="">Week</a>
                   <a href="">Month</a>
                   <a href="">Year</a>

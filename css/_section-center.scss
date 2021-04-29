@@ -1,0 +1,40 @@
+.center {
+    nav{
+        background-color: rgb(242, 235, 235);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        h2{
+            margin: 10px 5px 0 0;
+            font-size: 18px;
+        }
+        ul{
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            text-decoration: none;
+            text-align: center;
+            li:hover {
+                background-color: rgb(142, 142, 227);
+            }
+            
+            li{
+                display: flex;
+                width: 55px;
+                height: 40px;
+                border-radius: 5px;
+                margin: 20px 2px 0 10px;
+                font-size: 15px;
+                align-items: center;
+                a{
+                    color: black;
+                    text-align: center;
+                }
+                a:hover{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

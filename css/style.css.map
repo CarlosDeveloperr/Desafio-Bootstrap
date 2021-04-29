@@ -1,16 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AGAA,AAAA,CAAC,CAAA;EACG,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,UAAU,EAAE,UAAU;CACzB",
-    "sources": [
-        "style.scss",
-        "_variables.scss",
-        "_mixin.scss",
-        "_base.scss",
-        "_header.scss",
-        "_section-center.scss",
-        "_aside-izq.scss",
-        "_aside-der.scss"
-    ],
-    "names": [],
-    "file": "style.css"
-}
+{"version":3,"sources":["_base.scss","style.scss","_header.scss","_section-center.scss"],"names":[],"mappings":"AAAA;EACI,SAAA;EACA,UAAA;EACA,8BAAA;UAAA,sBAAA;ACCJ;;ADEA;EACI,yBAAA;ACCJ;;ACRA;EACI,uBAAA;ADWJ;;AEXI;EACI,yBAAA;EACA,oBAAA;EAAA,oBAAA;EAAA,aAAA;EACA,yBAAA;MAAA,sBAAA;UAAA,8BAAA;EACA,yBAAA;MAAA,sBAAA;UAAA,mBAAA;EACA,kBAAA;AFcR;AEbQ;EACI,oBAAA;EACA,eAAA;AFeZ;AEbQ;EACI,oBAAA;EAAA,oBAAA;EAAA,aAAA;EACA,wBAAA;MAAA,qBAAA;UAAA,uBAAA;EACA,qBAAA;EACA,qBAAA;EACA,kBAAA;AFeZ;AEdY;EACI,yBAAA;AFgBhB;AEbY;EACI,oBAAA;EAAA,oBAAA;EAAA,aAAA;EACA,WAAA;EACA,YAAA;EACA,kBAAA;EACA,uBAAA;EACA,eAAA;EACA,yBAAA;MAAA,sBAAA;UAAA,mBAAA;AFehB;AEdgB;EACI,YAAA;EACA,kBAAA;AFgBpB;AEdgB;EACI,qBAAA;AFgBpB","file":"style.css"}

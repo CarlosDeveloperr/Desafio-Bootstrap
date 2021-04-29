@@ -4,4 +4,63 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
-/*# sourceMappingURL=style.css.map */
+
+body {
+  background-color: #f2ebeb;
+}
+
+nav {
+  background-color: white;
+}
+
+.center nav {
+  background-color: #f2ebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.center nav h2 {
+  margin: 10px 5px 0 0;
+  font-size: 18px;
+}
+.center nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style-type: none;
+  text-decoration: none;
+  text-align: center;
+}
+.center nav ul li:hover {
+  background-color: #8e8ee3;
+}
+.center nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55px;
+  height: 40px;
+  border-radius: 5px;
+  margin: 20px 2px 0 10px;
+  font-size: 15px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.center nav ul li a {
+  color: black;
+  text-align: center;
+}
+.center nav ul li a:hover {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */

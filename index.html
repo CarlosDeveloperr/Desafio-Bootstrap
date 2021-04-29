@@ -12,16 +12,104 @@
 </head>
 
 <body>
-  <header>
-    <nav></nav>
-  </header>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
+    <div class="container d-flex justify-content-between">
+      <div class="d-flex">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/dev.png" width="45" height="40" class="d-inline-block align-top" alt="">
+        </a>
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+        </form>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white btn btn-primary rounded" href="#">Write a Post</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="./assets/Mensajeria.png" width="35" height="25"
+                  alt="Mensajeria"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><img src="./assets/notification.png" width="35" height="15" alt=""></a>
+            </li>
+            <li class=" nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false"><img src="" alt="Perfil"></a>
+
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#"> <strong>Arevalo-dev</strong><br> @arevalo-dev</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Dashboard</a>
+                <a class="dropdown-item" href="#">Write a Post</a>
+                <a class="dropdown-item" href="#">Reading List</a>
+                <a class="dropdown-item" href="#">Settingss</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Sign Out</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
 
   <main class="container-fluid">
     <div class="row">
       <div class="container">
         <div class="row">
           <aside class="col-3"></aside>
-          <section class="col-6"></section>
+
+
+          <section class="center col-6">
+            <nav>
+              <h2 class="">Posts</h2>
+              <ul class="">
+                <li><a href="./index.html">Feed</a></li>
+                <li><a href="">Week</a></li>
+                <li><a href="">Month</a></li>
+                <li><a href="">Year</a></li>
+                <li><a href="">Infinity</a></li>
+                <li><a href="">Latest</a></li>
+              </ul>
+            </nav>
+            <div class=" col-12 card">
+              <img src="./assets/cards-principal.jpeg" class="card-img-top" alt="Post-Principal">
+              <div class="card-body">
+                <div class="users d-flex align-items-center">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="30" height="30" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <h3 class="card-title">Card title</h3>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div>
+                  <div>
+                    1 reaction
+                  </div>
+                  <div>
+                    Add comment
+                  </div>
+                  <p>
+                    11 min read
+                  </p>
+                  <a href="#" class="btn btn-primary">Save</a>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
           <aside class="col-3"></aside>
         </div>
       </div>

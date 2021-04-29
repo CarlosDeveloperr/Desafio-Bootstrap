@@ -63,13 +63,13 @@ main {
                 flex-direction: column;
                 .users{
                     display: flex;
-                    margin: 25px 0 0 0;
                     img{
                         margin: 0 5px;
                     }
                 }
                 h3{
                     margin-left: 45px;
+                    font-size: 26px;
                 }
                 ul{
                     display: flex;
@@ -82,7 +82,6 @@ main {
                 }
                 .foot {
                     display: flex;
-                    
                     width: 100%;
                     margin: 10px 60px 10px 45px;
                     font-size: 12px;
@@ -91,35 +90,34 @@ main {
                         align-items: center;
                         width: 40%;
                         padding: 0 3px;
-                        p{
-                            display: block;
-                            font-size: 10px;
-                            margin: 0 5px;
-                            text-align: center;
-                            padding-top: 3px;
+                        .social {
+                            padding: 3px;
+                            p{
+                                margin-left: 4px;
+                            }
                         }
-                        p:hover{
+                        .social:hover{
                             border-radius: 5px;
                             background-color: rgb(244, 244, 244);
                         }
                     }
                     .action-center{
+                        margin-left: 60px;
                         display: flex;
-                        align-items: center;
-                        justify-content: flex-end;
+                        justify-content: space-between;
                         p{
                             display: block;
-                            width: 45%;
-                            font-size: 10px;
+                           font-size: 10px;
                             margin: 0 auto;
                             margin-left: 5px;
-                            padding-top: 4px;
+                            padding-top: 10px;
                             padding-left: 13px;
                         }
                         a{
                             background-color: rgb(187, 187, 187);
                             border: gray;
                             color: black;
+                            margin-left: 10px;
                         }
                         a:hover{
                             background-color: gray;

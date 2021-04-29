@@ -105,13 +105,13 @@ main .center .card-prin .bodyprincipal .users {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 25px 0 0 0;
 }
 main .center .card-prin .bodyprincipal .users img {
   margin: 0 5px;
 }
 main .center .card-prin .bodyprincipal h3 {
   margin-left: 45px;
+  font-size: 26px;
 }
 main .center .card-prin .bodyprincipal ul {
   display: -webkit-box;
@@ -144,41 +144,38 @@ main .center .card-prin .bodyprincipal .foot .dinamic-center {
   width: 40%;
   padding: 0 3px;
 }
-main .center .card-prin .bodyprincipal .foot .dinamic-center p {
-  display: block;
-  font-size: 10px;
-  margin: 0 5px;
-  text-align: center;
-  padding-top: 3px;
+main .center .card-prin .bodyprincipal .foot .dinamic-center .social {
+  padding: 3px;
 }
-main .center .card-prin .bodyprincipal .foot .dinamic-center p:hover {
+main .center .card-prin .bodyprincipal .foot .dinamic-center .social p {
+  margin-left: 4px;
+}
+main .center .card-prin .bodyprincipal .foot .dinamic-center .social:hover {
   border-radius: 5px;
   background-color: #f4f4f4;
 }
 main .center .card-prin .bodyprincipal .foot .action-center {
+  margin-left: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 main .center .card-prin .bodyprincipal .foot .action-center p {
   display: block;
-  width: 45%;
   font-size: 10px;
   margin: 0 auto;
   margin-left: 5px;
-  padding-top: 4px;
+  padding-top: 10px;
   padding-left: 13px;
 }
 main .center .card-prin .bodyprincipal .foot .action-center a {
   background-color: #bbbbbb;
   border: gray;
   color: black;
+  margin-left: 10px;
 }
 main .center .card-prin .bodyprincipal .foot .action-center a:hover {
   background-color: gray;

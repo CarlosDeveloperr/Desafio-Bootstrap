@@ -5,20 +5,19 @@
         justify-content: space-between;
         align-items: center;
         text-align: center;
+        
         h2{
             margin: 10px 5px 0 0;
             font-size: 18px;
         }
         ul{
             display: flex;
-            justify-content: center;
+           
             list-style-type: none;
             text-decoration: none;
             text-align: center;
-            li:hover {
-                background-color: rgb(142, 142, 227);
-            }
-            li{
+            
+            .menu-large{
                 display: flex;
                 width: 55px;
                 height: 40px;
@@ -30,37 +29,40 @@
                 a{
                     color: black;
                     text-align: center;
+                    margin: 20px 0 0 30px;
                 }
-                a:hover{
+                a:hover {
+                    background-color: rgb(142, 142, 227);
                     text-decoration: none;
+                    align-items: center;
                 }
             }
         }
     }
 
-    .card-principal{
+    .card-prin{
         padding: 0;
         .img-principal {
             width: 100%;
             height: 100%;
         }
-        .card-principal{
+        .bodyprincipal{
             display: flex;
             flex-direction: column;
             .users{
                 display: flex;
-                margin: 25px 0 0 5px;
+                margin: 25px 0 0 0;
                 img{
-                    margin: 0 15px;
+                    margin: 0 5px;
                 }
             }
             h3{
-                margin-left: 68px;
+                margin-left: 45px;
             }
             ul{
                 display: flex;
                 justify-content:initial;
-                margin: 5px 0 5px 68px;
+                margin: 5px 0 5px 45px;
                 list-style-type: none;
                 li{
                     margin: 0 5px;
@@ -68,16 +70,18 @@
             }
             .foot {
                 display: flex;
-                justify-content: space-between;
-                margin: 10px 20px 10px 68px;
+                
+                width: 100%;
+                margin: 10px 60px 10px 45px;
                 font-size: 12px;
                 .dinamic-center{
                     display: flex;
                     align-items: center;
+                    width: 40%;
+                    padding: 0 3px;
                     p{
                         display: block;
-                        width: 125px;
-                        height: 25px;
+                        font-size: 10px;
                         margin: 0 5px;
                         text-align: center;
                         padding-top: 3px;
@@ -93,8 +97,8 @@
                     justify-content: flex-end;
                     p{
                         display: block;
-                        width: 85px;
-                        height: 25px;
+                        width: 45%;
+                        font-size: 10px;
                         margin: 0 auto;
                         margin-left: 5px;
                         padding-top: 4px;

@@ -36,7 +36,7 @@
             <li class="nav-item">
               <a class="nav-link" href="#"><img src="./assets/notification.png" width="35" height="15" alt=""></a>
             </li>
-            <li class=" nav-item dropdown">
+            <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                 aria-haspopup="true" aria-expanded="false"><img src="" alt="Perfil"></a>
 
@@ -65,23 +65,48 @@
           <aside class="col-3"></aside>
 
 
-          <section class="center col-6">
-            <nav>
+          <section class="center col-sm-12 col-lg-6">
+            <nav class="col-12">
               <h2 class="">Posts</h2>
-              <ul class="">
-                <li><a href="./index.html">Feed</a></li>
-                <li><a href="">Week</a></li>
-                <li><a href="">Month</a></li>
-                <li><a href="">Year</a></li>
-                <li><a href="">Infinity</a></li>
-                <li><a href="">Latest</a></li>
+              <ul class="col-12">
+                <li>
+                  <select class="d-md-none" name=:" id="">
+                    <option value="">
+                      <a href="./index.html">Feed</a>
+                    </option>
+                    <option value="">
+                      <a href="">Week</a>
+                    </option>
+                    <option value="">
+                      <a href="">Month</a>
+                    </option>
+                    <option value="">
+                      <a href="">Year</a>
+                    </option>
+                    <option value="">
+                      <a href="">Infinity</a>
+                    </option>
+                    <option value="">
+                      <a href="">Latest</a>
+                    </option>
+                  </select>
+                </li>
+                <li class="d-sm-none d-lg-flex">
+                  <a href="./index.html">Feed</a>
+                  <a href="">Week</a>
+                  <a href="">Month</a>
+                  <a href="">Year</a>
+                  <a href="">Infinity</a>
+                  <a href="">Latest</a>
+                </li>
               </ul>
             </nav>
-            <div class=" col-12 card">
-              <img src="./assets/cards-principal.jpeg" class="card-img-top" alt="Post-Principal">
-              <div class="card-body">
-                <div class="users d-flex align-items-center">
-                  <img class="rounded-circle" src="./assets/user1.jpeg" width="30" height="30" alt="User">
+            <div class="card-principal col-12 card rounded">
+              <img class="img-principal rounded-top" src="./assets/cards-principal.jpeg" class="card-img-top"
+                alt="Post-Principal">
+              <div class="card-principal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
                   <p><strong>User</strong> <br>
                     Apr 28 (4 hours ago)
                   </p>
@@ -93,26 +118,31 @@
                   <li>#javascript</li>
                   <li>#webdev</li>
                 </ul>
-                <div>
-                  <div>
-                    1 reaction
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <p>
+                      1 reaction
+                    </p>
+                    <p>
+                      Add comment
+                    </p>
                   </div>
-                  <div>
-                    Add comment
+                  <div class="action-center">
+                    <p>
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
                   </div>
-                  <p>
-                    11 min read
-                  </p>
-                  <a href="#" class="btn btn-primary">Save</a>
                 </div>
-
               </div>
-            </div>
-          </section>
 
-          <aside class="col-3"></aside>
+            </div>
         </div>
+        </section>
+
+        <aside class="col-3"></aside>
       </div>
+    </div>
     </div>
   </main>
 

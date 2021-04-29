@@ -1,0 +1,133 @@
+main {
+    margin-top: 70px;
+
+    .center {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        nav{
+            width: 100%;
+            justify-content: space-between;
+            align-content: flex-start;
+            h2{
+                font-size: 18px;
+            }
+            ul{
+                list-style-type: none;
+                text-decoration: none;
+                text-align: center;
+
+                li select {
+                    display: block;
+                    position: relative;
+                    top: 0;
+                    left: 0;
+                }
+                
+                .superior{
+                    font-size: 12px;
+                    align-items: center;
+                    text-align: center;
+                    justify-content: space-around;
+                    
+                    a{
+                        color: black;
+                        text-align: center;
+                        padding: 7px;
+                        margin-top: 4px;
+                    }
+                    a.selection {
+                        border-bottom: 1px solid rgb(124, 124, 228);
+                        padding: 7px
+                    }
+                    a:hover {
+                        background-color: rgb(166, 166, 230);
+                        opacity: 50%;
+                        transition: 900ms;
+                        border-radius: 5px;
+                        border-bottom: 1px solid rgb(124, 124, 228);
+                        padding: 7px;
+                    }
+                }
+            }
+        }
+    
+        .card-prin{
+            padding: 0;
+            
+            .img-principal {
+                width: 100%;
+                
+            }
+            .bodyprincipal{
+                display: flex;
+                flex-direction: column;
+                .users{
+                    display: flex;
+                    img{
+                        margin: 0 5px;
+                    }
+                }
+                h3{
+                    margin-left: 45px;
+                    font-size: 26px;
+                }
+                ul{
+                    display: flex;
+                    justify-content:initial;
+                    margin: 5px 0 5px 45px;
+                    list-style-type: none;
+                    li{
+                        margin: 0 5px;
+                    }
+                }
+                .foot {
+                    display: flex;
+                    width: 100%;
+                    margin: 10px 60px 10px 45px;
+                    font-size: 12px;
+                    .dinamic-center{
+                        display: flex;
+                        align-items: center;
+                        width: 40%;
+                        padding: 0 3px;
+                        .social {
+                            padding: 3px;
+                            p{
+                                margin-left: 4px;
+                            }
+                        }
+                        .social:hover{
+                            border-radius: 5px;
+                            background-color: rgb(244, 244, 244);
+                        }
+                    }
+                    .action-center{
+                        margin-left: 60px;
+                        display: flex;
+                        justify-content: space-between;
+                        p{
+                            display: block;
+                           font-size: 10px;
+                            margin: 0 auto;
+                            margin-left: 5px;
+                            padding-top: 10px;
+                            padding-left: 13px;
+                        }
+                        a{
+                            background-color: rgb(187, 187, 187);
+                            border: gray;
+                            color: black;
+                            margin-left: 10px;
+                        }
+                        a:hover{
+                            background-color: gray;
+                        }
+                    }
+                }
+    
+                
+            }
+        }
+    }
+}

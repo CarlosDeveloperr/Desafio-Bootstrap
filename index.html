@@ -8,28 +8,1100 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <title>DEV</title>
+  <title>DEV Community 👩‍💻👨‍💻</title>
 </head>
 
 <body>
-  <header>
-    <nav></nav>
-  </header>
+
+  <nav class="navbar navbar-light bg-light justify-content-start container-fluid fixed-top">
+    <div class="container">
+
+      <button class="d-sm-none navbar-toggler mr-2 " type="button" data-toggle="collapse"
+        data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon "></span>
+      </button>
+      <a class="navbar-brand  rounded-lg m-md-0 mr-sm-auto " href="#">
+        <img src="./assets/icons/dev-brands.svg" width="30" height="30" alt="">
+      </a>
+      <form class="form-inline d-none d-md-block mr-lg-auto ml-2">
+        <input class="form-control mr-sm-2 " type="search" placeholder="Search..." aria-label="Search">
+      </form>
+      <div class="ladoDerechoNav d-flex justify-content-end w-48 ml-auto ">
+        <div class="d-flex">
+          <input class="btn btn-primary d-none d-md-block" type="submit" value="Write a post">
+
+          <a class="navbar-brand d-block d-md-none" href="#">
+            <img src="/assets/icons/search-solid.svg" width="24" height="24" alt="">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="/assets/icons/comment-regular.svg" class="ml-lg-3 ml-md-3" width="24" height="24" alt="">
+          </a>
+
+          <a class="navbar-brand" href="#">
+            <img src="/assets/icons/bell-regular.svg" width="24" height="24" alt="">
+          </a>
+
+          <a class="nav-link dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"><img src="/assets/icons/kodemia.svg" class="rounded-circle"
+              width="30" height="30" alt="Perfil"></a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#"> <strong>Kodemia</strong><br> @kodemia</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Dashboard</a>
+            <a class="dropdown-item" href="#">Write a Post</a>
+            <a class="dropdown-item" href="#">Reading List</a>
+            <a class="dropdown-item" href="#">Settingss</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Sign Out</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
 
   <main class="container-fluid">
     <div class="row">
       <div class="container">
         <div class="row">
-          <aside class="col-3"></aside>
-          <section class="col-6"></section>
-          <aside class="col-3"></aside>
+          <aside class="col-3 d-none d-md-block d-lg-block bg-lg-transparent">
+            <div class="nav-menu">
+              <nav>
+                <ul>
+                  <li><img src="./assets/icons/home.svg" alt=""><a href="">Home</a></li>
+                  <li><img src="./assets/icons/reading.svg" alt=""><a href="">Reading List</a></li>
+                  <li><img src="./assets/icons/listings.svg" alt=""><a href="">Listings</a></li>
+                  <li><img src="./assets/icons/podcast.svg" alt=""><a href="">Podcast</a></li>
+                  <li><img src="./assets/icons/videos.svg" alt=""><a href="">Videos</a></li>
+                  <li><img src="./assets/icons/tags.svg" alt=""><a href="">Tags</a></li>
+                  <li><a href="">More</a></li>
+                </ul>
+              </nav>
+
+            </div>
+
+            <div class="d-flex justify-content-between ">
+              <h2>My Tags</h2><img src="./assets/icons/my-tags.svg" alt="">
+            </div>
+            <div class="tags">
+
+
+              <ul>
+                <li><a href="">#javascrip</a></li>
+                <li><a href="">#python</a></li>
+                <li><a href="">#css</a></li>
+                <li><a href="">#android</a></li>
+                <li><a href="">#typescript</a></li>
+                <li><a href="">#linux</a></li>
+                <li><a href="">#git</a></li>
+                <li><a href="">#ubuntu</a></li>
+                <li><a href="">#dev</a></li>
+                <li><a href="">#Kodemia</a></li>
+                <li><a href="">#django</a></li>
+              </ul>
+
+            </div>
+
+            <img class="img-bottom" src="./assets/img/img-aside.jpg" alt="">
+            <h1>Got DEV Stickers Yet?</h1>
+
+          </aside>
+
+
+          <section class="center col-sm-12 col-md-8 col-lg-6">
+            <nav class="col d-flex align-items-center">
+              <h2 class="align-middle d-block">Posts</h2>
+              <ul class="align-middle d-block">
+                <li>
+                  <select class="d-md-none" name=:" id="">
+                    <option value="">
+                      <a href="./index.html">Feed</a>
+                    </option>
+                    <option value="">
+                      <a href="">Week</a>
+                    </option>
+                    <option value="">
+                      <a href="">Month</a>
+                    </option>
+                    <option value="">
+                      <a href="">Year</a>
+                    </option>
+                    <option value="">
+                      <a href="">Infinity</a>
+                    </option>
+                    <option value="">
+                      <a href="">Latest</a>
+                    </option>
+                  </select>
+                </li>
+                <li class="superior d-none d-md-flex">
+                  <a class="selection" href="./index.html">Feed</a>
+                  <a href="">Week</a>
+                  <a href="">Month</a>
+                  <a href="">Year</a>
+                  <a href="">Infinity</a>
+                  <a href="">Latest</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div class="card-prin card rounded">
+              <img class="card-img-top img-principal rounded-top" src="./assets/cards-principal.jpeg"
+                alt="Post-Principal">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-prin card rounded h-100 mt-3">
+              <div class="bodyprincipal card-body">
+                <div class="users">
+                  <img class="rounded-circle" src="./assets/user1.jpeg" width="35" height="35" alt="User">
+                  <p><strong>User</strong> <br>
+                    Apr 28 (4 hours ago)
+                  </p>
+                </div>
+                <a href="./post.html">
+                  <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
+                </a>
+                <ul>
+                  <li>#html</li>
+                  <li>#css</li>
+                  <li>#javascript</li>
+                  <li>#webdev</li>
+                </ul>
+                <div class="foot">
+                  <div class="dinamic-center">
+                    <div class="social d-flex align-items-center ">
+                      <img src="./assets/icons/heart.svg" width="12" height="12" alt="">
+                      <p>1 </p>
+                      <p>reaction</p>
+                    </div>
+                    <div class="social d-flex align-items-center">
+                      <img src="./assets/icons/chat.svg" width="12" height="12" alt="">
+                      <p>2 </p>
+                      <p> Comment</p>
+                    </div>
+                  </div>
+                  <div class="action-center">
+                    <p class="">
+                      11 min read
+                    </p>
+                    <a href="#" class="btn btn-primary">Save</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </section>
+
+          <aside class="col-lg-3 d-none d-lg-block aside-der">
+            <section class=" listings aside-card">
+              <div class="d-flex justify-content-between title-card">
+                <a href="">
+                  <h2>Listings</h2>
+                </a>
+                <a href="">See all</a>
+              </div>
+
+              <a href="" class="a-block">
+                <h3>
+                  Dublin Maker Festival 2021 Open Call
+                </h3>
+                <p>misc</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  [May 13th] 🌲 Live Streaming Series on JavaScript Plug-in Development! 🌲
+                </h3>
+                <p>events</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Developer Relations - Full-time - Japan
+                </h3>
+                <p>jobs</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  FREE Office Hours in May 🤩
+                </h3>
+                <p>mentors</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Backend Developer looking for remote jobs
+                </h3>
+                <p>forhire</p>
+              </a>
+              <a class="text-center font-weight-bold a-block" href="">Create a Listening</a>
+            </section>
+            <section class="news aside-card">
+              <div class="title-card">
+                <a href="">#News</a>
+              </div>
+              <a href="" class="a-block">
+                <h3>
+                  Redux-Cool Philosophy
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  LINUX KERNEL: Researchers from University of Minnesota had no bad intentions- lift ban
+                </h3>
+                <p>7 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  A guide to measuring Core Web Vitals, Cloudflare Pages, and what's new in Chrome 91 | Front End News
+                  #027
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  One week at globaldatanet as AWS Cloud Engineer - David Edition
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+
+              <a href="" class="a-block">
+                <h3>
+                  echoAR, a cloud platform for 3D apps, becomes a Unity Verified Solutions Partner
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+
+            </section>
+            <section class=" aside-card">
+              <div class="title-card">
+                <a href="">#Help</a>
+
+              </div>
+              <a href="" class="a-block">
+                <h3>
+                  How do I map through data in Airtable?
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Where should I put this?😕
+                </h3>
+                <p>2 comments</p>
+              </a>
+            </section>
+            <section class=" aside-card">
+              <div class="title-card">
+                <a href="">#discuss</a>
+              </div>
+              <a href="" class="a-block">
+                <h3>
+                  What kind of music do you listen to while coding? 🎧
+                </h3>
+                <p>64 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  😴 Laziness isn't real
+                </h3>
+                <p>6 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  GraphQL Hackathon: It's a Wrap
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  8 flags showing it's time to quit my job as a developer
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  What topics do you guys love to read about?
+                </h3>
+                <p>3 comments</p>
+              </a>
+            </section>
+            <section class="aside-card">
+              <div class="title-card">
+                <a href="">#explainlikeimfive</a>
+              </div>
+              <a href="" class="a-block">
+                <h3>
+                  Explain Kubernetes to me like I'm Five
+                </h3>
+                <p>22 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Different types of testing explained
+                </h3>
+                <p>40 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Explain "Smoke Testing" like I'm five
+                </h3>
+                <p>13 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Explain Recursion Like I'm Five
+                </h3>
+                <p>14 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Explain WebSockets like I'm five
+                </h3>
+                <p>19 comments</p>
+              </a>
+            </section>
+            <section class="aside-card">
+              <div class="title-card">
+                <a href="">#challenge</a>
+              </div>
+              <a href="" class="a-block">
+                <h3>
+                  Day 2 of #100daysofcode
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Dart VS C++ !! Its Interesting
+                </h3>
+                <p>1 comment </p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  100 days of code - Day 1
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  30-Day Code Quality Challenge
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+            </section>
+            <section class="aside-card">
+              <div class="title-card">
+                <a href="">#meta</a>
+              </div>
+              <a href="" class="a-block">
+                <h3>
+                  How to Write a good Dev.to post?
+                </h3>
+                <p>15 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Announcing DEV for Android
+                </h3>
+                <p>90 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Escaping backticks in a code block block does not work
+                </h3>
+                <p>2 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Dev.to Writing: Making a Series!
+                </h3>
+                <p>13 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  What is DEV.to? and what it wants to be?
+                </h3>
+                <p>6 comments</p>
+              </a>
+            </section>
+            <section class="aside-card">
+              <div class="title-card">
+                <a href="">#watercooler</a>
+              </div>
+              <a href="" class="a-block">
+                <h3>
+                  What kind of music do you listen to while coding? 🎧
+                </h3>
+                <p>64 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Do your own research 🔍
+                </h3>
+                <p>3 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  Seek ideal solutions by thinking backwards: from the goal to the starting point ⏮
+                </h3>
+                <div class="button-new">New</div>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  What topics do you guys love to read about?
+                </h3>
+                <p>3 comments</p>
+              </a>
+              <a href="" class="a-block">
+                <h3>
+                  5 blogs you shouldn't have missed last week, but did! 📣
+                </h3>
+                <p>18 comments</p>
+            </section>
+          </aside>
         </div>
       </div>
     </div>
   </main>
-
-
-
 
 
 

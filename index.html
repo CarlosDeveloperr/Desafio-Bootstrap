@@ -8,22 +8,27 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
-  <title>DEV</title>
+  <title>DEV Community 👩‍💻👨‍💻</title>
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
-    <div class="container d-flex justify-content-between">
+  <nav class="navbar navbar-expand-lg navbar-light bg-ligth navbar navbar-light bg-light ">
+    <div class="navegation container d-flex justify-content-between">
       <div class="d-flex">
+        <button class="d-sm-none navbar-toggler mr-2 " type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
         <a class="navbar-brand" href="#">
           <img src="./assets/dev.png" width="45" height="40" class="d-inline-block align-top" alt="">
         </a>
-        <form class="form-inline">
+        <form class="d-none d-sm-block form-inline">
           <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
         </form>
       </div>
-      <div>
+      <div class="d-sm-flex justify-content-end w-48 ml-auto">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
@@ -34,11 +39,12 @@
                   alt="Mensajeria"></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#"><img src="./assets/notification.png" width="35" height="15" alt=""></a>
+              <a class="nav-link" href="#"><img src="./assets/notification.png" width="35" height="20" alt=""></a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"><img src="" alt="Perfil"></a>
+                aria-haspopup="true" aria-expanded="false"><img class="rounded-circle" src=".//assets/login.jpeg"
+                  width="35" height="35" alt="Perfil"></a>
 
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#"> <strong>Arevalo-dev</strong><br> @arevalo-dev</a>
@@ -91,7 +97,7 @@
                     </option>
                   </select>
                 </li>
-                <li class="d-sm-none d-lg-flex">
+                <li class="d-none d-sm-flex">
                   <a href="./index.html">Feed</a>
                   <a href="">Week</a>
                   <a href="">Month</a>
@@ -111,7 +117,7 @@
                     Apr 28 (4 hours ago)
                   </p>
                 </div>
-                <h3 class="card-title">Card title</h3>
+                <h3 class="card-title">From JavaScript to Rust : Data Types</h3>
                 <ul>
                   <li>#html</li>
                   <li>#css</li>

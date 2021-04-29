@@ -12,6 +12,9 @@ body {
 nav {
   background-color: white;
 }
+nav .navegation {
+  width: 100%;
+}
 
 .center nav {
   background-color: #f2ebeb;

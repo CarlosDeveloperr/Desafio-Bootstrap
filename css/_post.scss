@@ -4,9 +4,60 @@
 .colorCarne{
     background-color: rgb(228, 115, 100);
 }
-li{
-    list-style: none;
+ .barraFixed{
+background-color: gray;    
 }
-.JsRust{
-    width: 30px;
+.hashtags{
+  margin-right: 5px;
+}
+.imagenesAvatares{
+ margin-right: 10px;
+}
+.readNext{
+  background-color: white;
+}
+.fondo{
+  background-color: white;
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 768px) and (max-width: 991px) { 
+  .barraFixed{
+    left: -15px;
+    background-color: transparent;
+  }
+  .readNext{
+    margin-top: 15px;
+  }
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1200px) { 
+
+.barraFixed{
+    left: -24px;
+    top: 60px;
+    z-index: 0;
+    background-color: transparent;
+}
+
+.informacionPersona {
+      position: fixed;
+      top: 69px;
+      left: 671px;
+  }
+    .readNext{
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) { 
+  .informacionPersona {
+    position: fixed;
+      top: 54px;
+      left: 881px;
+  }
+  .barraFixed{
+      background-color: transparent;
+  }
 }

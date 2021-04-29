@@ -52,14 +52,14 @@ background-color: gray;
 }
 
 @media (min-width: 1201px) and (max-width: 1600px) { 
-.informacionPersona {
-  position: fixed;
-    top: 54px;
-    left: 881px;
-}
-.barraFixed{
-    background-color: transparent;
-}
+  .informacionPersona {
+    position: fixed;
+      top: 54px;
+      left: 881px;
+  }
+  .barraFixed{
+      background-color: transparent;
+  }
 }
 
 

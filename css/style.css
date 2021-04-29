@@ -9,6 +9,20 @@ body {
   background-color: #f2ebeb;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #4d5760;
+  font-size: 1rem;
+}
+
+a:link, a:visited, a:active {
+  text-decoration: none;
+}
+
 nav {
   background-color: white;
 }
@@ -166,4 +180,122 @@ nav .navegation {
 }
 .center .card-principal .card-principal .foot .action-center a:hover {
   background-color: gray;
+}
+
+.nav-menu {
+  margin-bottom: 50px;
+}
+.nav-menu ul li {
+  padding: 7px 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+  -webkit-transition: cubic-bezier(0.17, 0.67, 0.5, 0.71);
+  transition: cubic-bezier(0.17, 0.67, 0.5, 0.71);
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+.nav-menu a {
+  margin-left: 5px;
+}
+.nav-menu li:nth-of-type(7) a {
+  margin-left: 27px;
+}
+.nav-menu ul li:hover {
+  background-color: #d2d6db;
+}
+
+.tags {
+  height: 300px;
+  overflow: auto;
+  margin-top: 10px;
+}
+.tags h2 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+.tags ul li {
+  padding: 6px 6px;
+  margin: 10px 0;
+  border-radius: 5px;
+  -webkit-transition: cubic-bezier(0.17, 0.67, 0.5, 0.71);
+  transition: cubic-bezier(0.17, 0.67, 0.5, 0.71);
+  -webkit-transition-duration: 100ms;
+          transition-duration: 100ms;
+}
+.tags ul li:hover {
+  background-color: #d2d6db;
+}
+
+img.img-bottom {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 1.17em;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+h3 {
+  font-size: 1rem;
+  color: #202428;
+}
+
+p {
+  font-size: 0.875rem;
+  color: #64707d;
+  margin: 0 0;
+}
+
+.button-new {
+  background-color: #3b49df;
+  border-radius: 5px;
+  width: 35px;
+  color: white;
+  text-align: center;
+  font-size: 0.75rem;
+  margin-top: 10px;
+}
+
+.aside-card {
+  margin-top: 20px;
+  background-color: #f9fafa;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+          box-shadow: 0 0 0 1px rgba(8, 9, 10, 0.1);
+}
+
+.title-card {
+  padding: 10px 10px;
+  border-bottom: 1px solid #eef0f1;
+}
+.title-card a {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.a-block {
+  display: none;
+}
+
+a.a-block:hover {
+  background-color: white;
+}
+
+@media screen and (min-width: 1024px) {
+  .a-block {
+    display: block;
+    padding: 15px 10px;
+    border-bottom: 1px solid #eef0f1;
+  }
 }/*# sourceMappingURL=style.css.map */

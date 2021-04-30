@@ -459,12 +459,19 @@ a.a-block:hover {
 }
 
 footer {
+  position: relative;
   background-color: #d2d6db;
 }
 
 footer em {
   font-weight: bold;
   font-style: normal;
+}
+
+footer img.mono {
+  position: absolute;
+  top: 0;
+  left: 94%;
 }
 
 footer .div-nav ul {

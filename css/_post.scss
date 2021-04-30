@@ -44,7 +44,9 @@ background-color: gray;
         margin-right: 10px;
         margin-top: 10px;
 }
-
+.barraSticky{
+  top:4rem;
+}
 /* Small devices (landscape phones, less than 768px)*/
 @media (min-width: 768px) and (max-width: 991px) { 
   .barraFixed{
@@ -81,13 +83,7 @@ background-color: gray;
     background-color: transparent;
 }
 
-.informacionPersona {
-     position: fixed;
-      top: 69px;
-      left: 671px;
-     
-      
-  }
+
     .readNext{
     margin-top: 15px;
   }
@@ -108,14 +104,7 @@ background-color: gray;
       font-size: 20px;
     }
   }
-  .informacionPersona {
-   position: fixed;
-      top: 55px;
-      left: 881px;
-      
-      
-     
-  }
+
   .barraFixed{
       background-color: transparent;
   }

@@ -1,15 +1,14 @@
 footer{
-    position: relative;
+    
     em{
         font-weight: bold;
         font-style: normal;
     }
     background-color: #d2d6db;
     img.mono{
-        position: absolute;
-        top: 0;
-        left: 94%;
+        display: none;
     }
+   
     .div-nav{
         ul{
             padding: 0;
@@ -38,4 +37,16 @@ footer{
     
     
     
+}
+
+@media screen and (min-width:1024px) {
+    footer{
+        position: relative;
+        img.mono{
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 94%;
+        }
+    }
 }

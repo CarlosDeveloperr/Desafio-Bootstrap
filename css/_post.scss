@@ -14,17 +14,35 @@ background-color: gray;
  margin-right: 10px;
 }
 .readNext{
+  padding: 10px 10px;
   background-color: white;
+  h2{
+    font-size: 20px;
+  }
 }
 .seccionComentarios{
+    padding: 0 10px;
     background-color: white;
 }
 .fondo{
+  padding: 0 10px;
   background-color: white;
+  border-bottom: 1px solid gray;
+  h2.principal-title{
+    font-size: 30px;
+  }
+  h2.subtitles{
+    font-size: 20px;
+  }
+  p{
+    font-size: 18px;
+  }
 }
 .imagenesComentarios{
         width: 30px;
         height: 30px;
+        margin-right: 10px;
+        margin-top: 10px;
 }
 
 /* Small devices (landscape phones, less than 768px)*/
@@ -40,6 +58,21 @@ background-color: gray;
 
 /* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) and (max-width: 1200px) { 
+  .fondo{
+    padding: 0 50px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    h2.principal-title{
+      font-size: 50px;
+    }
+    h2.subtitles{
+      font-size: 20px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+  
 
 .barraFixed{
     left: -24px;
@@ -49,9 +82,11 @@ background-color: gray;
 }
 
 .informacionPersona {
-      position: fixed;
+     position: fixed;
       top: 69px;
       left: 671px;
+     
+      
   }
     .readNext{
     margin-top: 15px;
@@ -59,10 +94,27 @@ background-color: gray;
 }
 
 @media (min-width: 1201px) and (max-width: 1600px) { 
+  .fondo{
+    padding: 0 50px;
+    background-color: white;
+    border-bottom: 1px solid gray;
+    h2.principal-title{
+      font-size: 50px;
+    }
+    h2.subtitles{
+      font-size: 20px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
   .informacionPersona {
-    position: fixed;
-      top: 54px;
+   position: fixed;
+      top: 55px;
       left: 881px;
+      
+      
+     
   }
   .barraFixed{
       background-color: transparent;

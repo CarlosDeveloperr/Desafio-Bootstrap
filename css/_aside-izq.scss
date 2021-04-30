@@ -1,7 +1,11 @@
 .nav-menu{
+    margin-top: 20px;
     margin-bottom: 50px;
+    ul{
+        padding: 0 ;
+    }
     ul li{
-        padding: 7px 10px;
+        padding: 5px 10px;
         border-radius: 5px;
         margin: 10px 0;
         transition: cubic-bezier(0.17, 0.67, 0.5, 0.71);
@@ -32,6 +36,9 @@
     h2{
         font-weight: bold;
     font-size: 1rem;
+    }
+    ul{
+        padding: 0;
     }
    ul li{
        padding: 6px 6px;

@@ -42,7 +42,7 @@
     </div>
   </nav>
   <!--post-->
-  <div class="container-fluid bg-light">
+  <div class="container-fluid bg-light ">
     <div class="row">
       <div class="container">
         <div class="row">
@@ -67,10 +67,11 @@
           <div class="col-sm-12 col-md-11 col-lg-11">
             <div class="row">
               <div class="contenido col-sm-12 col-md-12 col-lg-8 ">
+                <img class="JsRust w-100 mt-4 " src="./assets/images/rust-js-logo.png" alt="">
                 <div class="fondo">
-                  <img class="JsRust w-100 mt-4 " src="./assets/images/rust-js-logo.png" alt="">
-                  <h2> From JavaScript to Rust : Data Types </h2>
-                  <div class="d-flex justify-content-start ">
+
+                  <h2 class="principal-title"> From JavaScript to Rust : Data Types </h2>
+                  <div class="d-flex justify-content-start pt-1 pb-3 ">
                     <div class="colorCarne text-black rounded mr-2">#rust</div>
                     <div class="bg-warning text-black rounded mr-2">#javascript</div>
                     <div class="colorMorado text-white rounded mr-2">#webdev</div>
@@ -117,8 +118,8 @@
                       booleans, integers,
                       floating point numbers, and characters.</p>
                   </div>
-                  <div>
-                    <h2><strong>Primitives</strong></h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>Primitives</strong></h2>
                     <p>A JavaScript primitive is similar to what Rust calls a scalar type. Rust has four scalar types:
                       booleans, integers,
                       floating point numbers, and characters.</p>
@@ -126,8 +127,8 @@
                       Never on top of
                       the four scalar types.</p>
                   </div>
-                  <div>
-                    <h2>Boolean</h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>Boolean</strong></h2>
                     <p>Let's start with something familiar, booleans. Booleans, or bool in Rust, are a type with two
                       possible values: true or
                       false. This matches up with our JavaScript understanding, so no changes here.</p>
@@ -135,8 +136,8 @@
                   <div>
                     <p></p>
                   </div>
-                  <div>
-                    <h2>Number</h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>Number</strong></h2>
                     <p>The same can't be said of numbers. In Rust, you need to care about what type of number you're
                       storing. Is it an integer
                       or a floating point number? What amount of space, in bits, does storing it take? Is it signed or
@@ -146,8 +147,8 @@
                       floating point numbers you have either f32 or f64; the first is single precision and the second,
                       double precision.</p>
                   </div>
-                  <div>
-                    <h2>String</h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>String</strong></h2>
                     <p>You may have noticed that I didn't mention strings as Rust scalar types, I mentioned char. This
                       is
                       accurate. However,
@@ -159,14 +160,14 @@
                       methods you're used
                       to, like len (aka length), won't return what you expect.</p>
                   </div>
-                  <div>
-                    <h2>Structural types</h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>Structural Types</strong></h2>
                     <p>In JavaScript, most structural types are specific implementations of the JavaScript object type.
                       But we'll break them
                       out individually for the sake of this post.</p>
                   </div>
-                  <div>
-                    <h2>Arrays</h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>Arrays</strong></h2>
                     <p>Now we get to the part where you'll need to rewire your internal JavaScript dictionary. An array
                       is
                       a valid Rust type.
@@ -178,8 +179,8 @@
                       own and grow
                       dynamically.</p>
                   </div>
-                  <div>
-                    <h2>Objects</h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>Objects</strong></h2>
                     <p>Search "Rust object type" and you're bound to be confused. You'll end up reading up on Trait
                       object
                       types, which is a
@@ -190,24 +191,24 @@
                       reading about <a href="">structs</a> further because they do some unique things when it comes to
                       mutability.</p>
                   </div>
-                  <div>
-                    <h2>Sets and Maps</h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>Sets and Maps</strong></h2>
                     <p>These are relative newcomers in the land of JavaScript, but they're great tools to have at your
                       disposal. When
                       developing in Rust you'll get similar functionality from <a href="">HashSets</a> and <a href="">
                         HashMaps</a>.</p>
                     <p>Note that there are also BTree based implementations of these structures.</p>
                   </div>
-                  <div>
-                    <h2>Function</h2>
+                  <div class="mt-2">
+                    <h2 class="subtitles"><strong>Function</strong></h2>
                     <p>As with JavaScript, Rust has first-class functions. In addition to functions, defined using the
                       fn
                       keyword, Rust also
                       has closures. Closures are anonymous functions with syntax that looks similar to JavaScript arrow
                       functions.</p>
                   </div>
-                  <div>
-                    <h2>Is that it?</h2>
+                  <div class="mt-2 mb-4">
+                    <h2 class="subtitles"><strong>Is that it?</strong></h2>
                     <p>JavaScript is pretty minimal when it comes to types. Especially when compared to more verbose
                       languages like Java or C.
                       Rust's offerings are more similar to the latter, so things like Linked Lists are available as a
@@ -220,16 +221,17 @@
                 </div>
                 <!--Seccion comentarios-->
                 <div class="seccionComentarios">
-                  <div class="d-flex justify-content-between">
-                    <h2>Discussion (6)</h2>
-                    <button class="btn btn-outline-secondary mb-4 " type="submit">Subscribe</button>
+                  <div class="d-flex justify-content-between ">
+                    <h2 class="mt-3 ">Discussion (6)</h2>
+                    <button class="btn btn-outline-secondary mb-4 mt-3  " type="submit">Subscribe</button>
                   </div>
                   <div class="Comentarios d-flex mb-2">
-                    <img src="./assets/avatars/avatar-8.png" alt="">
+                    <img class="mr-2" src="./assets/avatars/avatar-8.png" alt="">
                     <input type="text" class="w-100" name="" placeholder="Add to the discussion">
+
                   </div>
                   <div>
-                    <div class="d-flex ">
+                    <div class="d-flex mt-4">
                       <div class="d-flex flex-column">
                         <img src="./assets/avatars/avatar-5.png" class="imagenesComentarios" alt="">
                         <img src="./assets/icons/angle-double-up-solid.svg" width="24" height="24" alt="">
@@ -247,7 +249,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="ml-4 d-flex ">
+                    <div class="ml-5 d-flex  mt-1 mb-3">
                       <img src="./assets/icons/heart-regular.svg" width="24" height="24" class="mr-1" alt="">
                       <p class="text-muted mr-2">3 likes</p>
                       <img src="./assets/icons/comment-regular.svg" width="24" class="mr-1" height="24" alt="">
@@ -270,7 +272,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="ml-4 d-flex ">
+                    <div class="ml-5 d-flex mt-1 mb-3 ">
                       <img src="./assets/icons/heart-regular.svg" width="24" height="24" class="mr-1" alt="">
                       <p class="text-muted mr-2">4 likes</p>
                       <img src="./assets/icons/comment-regular.svg" width="24" class="mr-1" height="24" alt="">
@@ -289,7 +291,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="ml-4 d-flex ">
+                    <div class="ml-5 d-flex mt-1 mb-3">
                       <img src="./assets/icons/heart-regular.svg" width="24" height="24" class="mr-1" alt="">
                       <p class="text-muted mr-2">4 likes</p>
                       <img src="./assets/icons/comment-regular.svg" width="24" class="mr-1" height="24" alt="">
@@ -317,7 +319,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="ml-4 d-flex ">
+                    <div class="ml-5 d-flex mt-1 mb-3 ">
                       <img src="./assets/icons/heart-regular.svg" width="24" height="24" class="mr-1" alt="">
                       <p class="text-muted mr-2">3 likes</p>
                       <img src="./assets/icons/comment-regular.svg" width="24" class="mr-1" height="24" alt="">
@@ -342,7 +344,7 @@
                         </p>
                       </div>
                     </div>
-                    <div class="ml-4 d-flex ">
+                    <div class="ml-5 d-flex mt-1 mb-3 ">
                       <img src="./assets/icons/heart-regular.svg" width="24" height="24" class="mr-1" alt="">
                       <p class="text-muted mr-2">3 likes</p>
                       <img src="./assets/icons/comment-regular.svg" width="24" class="mr-1" height="24" alt="">
@@ -362,19 +364,19 @@
                         <p>This is great stuff</p>
                       </div>
                     </div>
-                    <div class="ml-4 d-flex ">
+                    <div class="ml-5 d-flex mt-1 mb-3 ">
                       <img src="./assets/icons/heart-regular.svg" width="24" height="24" class="mr-1" alt="">
                       <p class="text-muted mr-2">3 likes</p>
                       <img src="./assets/icons/comment-regular.svg" width="24" class="mr-1" height="24" alt="">
                       <p>Reply</p>
                     </div>
                   </div>
-                  <div class="Code d-flex justify-content-center">
+                  <div class="Code d-flex justify-content-center ">
                     <p>Code of Conduct • Report abuse</p>
                   </div>
                 </div>
                 <!--Zona Read Next-->
-                <div class="readNext d-flex flex-column border border-white ">
+                <div class="readNext d-flex flex-column border border-white mt-3 ">
                   <h2>Read next</h2>
                   <div>
                     <p><img src="./assets/avatars/avatar-2.png" alt="" class="imagenesAvatares"><strong>5 short CSS
@@ -404,9 +406,10 @@
                   </div>
                 </div>
               </div>
-              <aside class="informacionPersona col-sm-12 col-md-12 col-lg-3 ">
+
+              <aside class="informacionPersona col-sm-12 col-md-12 col-lg-4 ">
                 <!--primera carta-->
-                <div class="card mb-3">
+                <div class="card mb-4">
                   <div class="colorMorado h-25">
                     <p></p>
                   </div>
@@ -466,8 +469,57 @@
       </div>
     </div>
   </div>
-  </div>
 
+  <footer class="container-fluid mt-5 mb-5 mb-lg-0">
+    <div class="row">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mt-5 div-nav">
+            <nav>
+              <ul class="d-flex flex-wrap justify-content-center ">
+                <li><a href="">Home</a></li>
+                <li><a href="">Reading List</a></li>
+                <li><a href="">Listings</a></li>
+                <li><a href="">Videos</a></li>
+                <li><a href="">Tags</a></li>
+                <li><a href="">Code of Conduct</a></li>
+                <li><a href="">FAQ</a></li>
+                <li><a href="">DEV Shop</a></li>
+                <li><a href="">Sponsors</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Privacy Policy</a></li>
+                <li><a href="">Terms of use</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href=""><em>Wite a Post </em></a></li>
+
+              </ul>
+            </nav>
+            <div class="d-flex flex-wrap justify-content-center div-social-media">
+              <a href=""><img src="./assets/icons/twitter.svg" alt=""></a>
+              <a href=""><img src="./assets/icons/facebook.svg" alt=""></a>
+              <a href=""><img src="./assets/icons/git.svg" alt=""></a>
+              <a href=""><img src="./assets/icons/ig.svg" alt=""></a>
+              <a href=""><img src="./assets/icons/twitch.svg" alt=""></a>
+            </div>
+            <div class="d-flex flex-wrap justify-content-center div-text">
+              <p><em>DEV Community</em> – A constructive and inclusive social network for software developers. With you
+                every
+                step of your
+                journey.</p>
+              <p>Built on <em>Forem</em> — the <em>open source</em> software that powers <em>DEV</em> and other
+                inclusive communities.
+
+                Made with love and <em>Ruby on Rails</em> . DEV Community © 2016 - 2021.</p>
+
+            </div>
+            <div class="d-flex justify-content-center mb-4 mb-lg-1">
+              <a class="plant" href=""><img src="./assets/icons/plant.svg" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
 
